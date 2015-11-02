@@ -17,4 +17,12 @@
     <line x1="75" y1="95" x2="135" y2="105" style="stroke: black;" />
   </g>
   <use xlink:href="#whiskers" transform="scale(-1 1) translate(-140 0)" />
+
+  <!-- ears -->
+  <polyline points="108 62,  90 10,  70 45,  50 10,  32 62"
+    style="stroke: black; fill: none;" />
+
+  <!-- mouth -->
+  <polyline points="35 110,  45 120,  95 120,  105 110"
+    style="stroke: black; fill: none;" />
 </svg>
