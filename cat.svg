@@ -25,4 +25,20 @@
   <!-- mouth -->
   <polyline points="35 110,  45 120,  95 120,  105 110"
     style="stroke: black; fill: none;" />
+
+  <!-- nose -->
+  <!-- Move to coordinate (75,90). Draw a line to coordinate (65,90).
+        Draw an elliptical arc with an x-radius of 5 and a y-radius of 10,
+        ending back at coordinate (75,90).
+        A takes:
+          1. x-radius
+          2. y-radius
+          3. x-axis-rotation
+          4. large-arc-flag
+          5. sweep-flag
+          6. final x coord
+          7. final y coord
+  -->
+  <path d="M 75 90  L 65 90 A 5 10 0 0 0  75 90"
+    style="stroke: black; fill: #ffcccc" />
 </svg>
