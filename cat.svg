@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
-    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"> -->
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
-<!-- these days, you need the xmlns! 2nd edition wassup -->
-<svg width="140" height="170" xmlns="http://www.w3.org/2000/svg">
+<!-- these days, you need the xmlns and xmlns:xlink! 2nd edition wassup -->
+<svg width="140" height="170"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Cat</title>
   <desc>Stick Figure of a Cat</desc>
 
@@ -14,4 +16,5 @@
     <line x1="75" y1="95" x2="135" y2="85" style="stroke: black;" />
     <line x1="75" y1="95" x2="135" y2="105" style="stroke: black;" />
   </g>
+  <use xlink:href="#whiskers" transform="scale(-1 1) translate(-140 0)" />
 </svg>
